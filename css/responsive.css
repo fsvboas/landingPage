@@ -1,0 +1,271 @@
+@media (max-width: 1350px) {
+  nav {
+    margin: 0 100px;
+  }
+
+  .links a {
+    margin: 10px;
+  }
+
+  .features-content {
+    grid-gap: 20px;
+
+    padding: 100px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .billboard-content {
+    padding: 100px 100px;
+  }
+
+  .phone-image {
+    display: none;
+  }
+
+  .about-app {
+    margin: 0 auto;
+
+    align-items: center;
+    justify-content: center;
+  }
+
+  .about-app h1 {
+    font-size: 2.4rem;
+  }
+
+  .about-app p {
+    text-align: center;
+  }
+
+  .features-content {
+    padding: 62px;
+  }
+
+  .testimonials {
+    max-width: 800px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .features-content {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 850px) {
+  nav {
+    margin: 0 40px;
+  }
+
+  .billboard-content {
+    padding: 30px 30px;
+  }
+
+  .about-app h1 {
+    font-size: 2rem;
+  }
+
+  .feature-resume {
+    padding-bottom: 40px;
+
+    border-bottom: 1px solid var(--gray);
+  }
+
+  .feature-resume:nth-child(6) {
+    border-bottom: none;
+  }
+
+  .features-content {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .testimonials {
+    max-width: 600px;
+  }
+  .testimonials .main-text p {
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 650px) {
+  nav {
+    margin: 0 20px;
+  }
+
+  .links a {
+    margin: 0;
+  }
+
+  .fa-twitter,
+  .fa-google,
+  .fa-facebook-f {
+    margin: 5px;
+  }
+  .billboard {
+    background-image: none;
+  }
+
+  .billboard-content .texts h1 {
+    font-size: 2rem;
+  }
+
+  .featured-images {
+    overflow-x: scroll;
+  }
+
+  .featured-images img {
+    margin-right: 30px;
+  }
+
+  .about-app h1 {
+    font-size: 1.5rem;
+  }
+
+  .about-app p {
+    font-size: 0.9rem;
+  }
+
+  .testimonials {
+    max-width: 500px;
+  }
+}
+
+@media (max-width: 550px) {
+  .billboard-content .texts h1 {
+    text-align: center;
+
+    font-size: 1.6rem;
+  }
+
+  .billboard-content .texts p {
+    display: none;
+  }
+
+  .about-app {
+    max-width: 450px;
+  }
+
+  .about-app h1 {
+    text-align: center;
+  }
+
+  .testimonials {
+    max-width: 400px;
+
+    margin: 0 auto;
+  }
+
+  .testimonials .main-text p {
+    font-size: 1rem;
+  }
+
+  .testimonials .author h1 {
+    font-size: 1.2rem;
+  }
+
+  .testimonials .author p {
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 500px) {
+  nav {
+    flex-direction: column;
+
+    justify-content: center;
+  }
+
+  .links {
+    margin-bottom: 20px;
+  }
+
+  .about-app {
+    max-width: 400px;
+  }
+
+  .about-app ul li {
+    font-size: 0.9rem;
+  }
+
+  .feature-resume h2 {
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 420px) {
+  button {
+    margin: 0;
+  }
+
+  .billboard-content .buttons {
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+
+    margin: 0;
+  }
+
+  .billboard-content .buttons .iphone-app {
+    margin-bottom: 10px;
+  }
+
+  .about-app {
+    max-width: 300px;
+  }
+
+  .about-app h1 {
+    font-size: 1.2rem;
+  }
+
+  .about-app p {
+    font-size: 0.8rem;
+  }
+
+  .about-app ul li {
+    font-size: 0.7rem;
+  }
+
+  .about-app ul li img {
+    margin-right: 10px;
+  }
+
+  .about-app .buttons {
+    flex-direction: column;
+
+    align-items: center;
+  }
+
+  .feature-resume p {
+    font-size: 0.9rem;
+  }
+
+  .subscription .subs-text p {
+    font-size: 1.1rem;
+  }
+  .subscription .mail-input input {
+    width: 280px;
+
+    background-position: 15rem;
+  }
+
+  .testimonials {
+    max-width: 300px;
+  }
+
+  .testimonials .main-text p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 350px) {
+  .feature-resume p {
+    font-size: 0.85rem;
+  }
+
+  .testimonials {
+    max-width: 250px;
+  }
+}
