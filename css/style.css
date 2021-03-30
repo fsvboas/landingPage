@@ -31,8 +31,6 @@ button {
 
   cursor: pointer;
 
-  margin-right: 20px;
-
   border: 2px solid var(--gray);
 
   text-transform: uppercase;
@@ -155,6 +153,10 @@ nav {
 
 .billboard-content .buttons {
   display: flex;
+}
+
+.billboard-content .buttons .iphone-app {
+  margin-right: 20px;
 }
 
 /* FEATURED SECTION */

@@ -102,16 +102,34 @@
   .fa-facebook-f {
     margin: 5px;
   }
+
   .billboard {
     background-image: none;
   }
 
   .billboard-content .texts h1 {
     font-size: 2rem;
+
+    text-align: center;
+  }
+
+  .billboard-content .texts p {
+    text-align: center;
+
+    margin: 40px auto;
+  }
+
+  .billboard-content .buttons {
+    justify-content: center;
   }
 
   .featured-images {
     overflow-x: scroll;
+
+    justify-content: start;
+
+    margin-left: 20px;
+    margin-right: 20px;
   }
 
   .featured-images img {
@@ -133,8 +151,6 @@
 
 @media (max-width: 550px) {
   .billboard-content .texts h1 {
-    text-align: center;
-
     font-size: 1.6rem;
   }
 
